@@ -69,6 +69,8 @@ fbcdn.net
 abs.twimg.com
 pbs.twimg.com
 api.twitter.com
+video.twimg.com
+abs-0.twimg.com
 developers.facebook.com
 instagram.com
 scontent-arn2-1.cdninstagram.com

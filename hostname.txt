@@ -62,9 +62,14 @@ tvrain.ru
 facebook.com
 twitter.com
 static.xx.fbcdn.net
+scontent-amt2-1.xx.fbcdn.net
+fbcdn.net
 abs.twimg.com
+pbs.twimg.com
 api.twitter.com
 developers.facebook.com
+instagram.com
+scontent-arn2-1.cdninstagram.com
 
 ###Разное
 7-zip.org

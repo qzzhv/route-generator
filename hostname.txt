@@ -53,6 +53,8 @@ flora.web.telegram.org
 vesta.web.telegram.org
 pluto.web.telegram.org
 aurora.web.telegram.org
+webz.telegram.org
+webk.telegram.org
 
 ###СМИ
 the-village.ru

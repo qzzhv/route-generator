@@ -1,16 +1,26 @@
-from itertools import chain
 from pathlib import Path
-from socket import getaddrinfo
+from socket import gethostbyname_ex
 
 
 GATEWAY_IP = "10.7.27.210"
 DOMAINS_PATH = r"hostname.txt"
 OUTPUT_PATH = r"static_rules.bat"
+RULE = "ROUTE ADD {ip} MASK 255.255.255.255 {gateway} REM {domain}"
        
 with open(Path(DOMAINS_PATH), encoding="utf-8") as inp, \
      open(Path(OUTPUT_PATH), "w") as out:
-    
-    domains = (domain.strip() for domain in inp if len(domain.strip()) > 0 and not domain.startswith("#"))
-    ips = chain(*((ai[-1][0] for ai in getaddrinfo(domain, 0, 0, 0, 0) if "." in ai[-1][0]) for domain in domains))
-    rules = (f"ROUTE ADD {ip} MASK 255.255.255.255 {GATEWAY_IP}" for ip in sorted(ips))
-    print(*rules, sep="\n", file=out)
+
+    for line in inp:
+        domain = line.split("#", 1)[0].strip()
+        if len(domain) == 0:
+            continue
+            
+        ips = gethostbyname_ex(domain)[-1]
+        for ip in ips:
+            rule = RULE.format(
+                ip=ip,
+                gateway=GATEWAY_IP,
+                domain=domain
+            )
+            out.write(f"{rule}\n")
+        

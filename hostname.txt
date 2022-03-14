@@ -18,6 +18,7 @@ rustorka.com
 uniongang.tv
 fast-torrent.ru
 
+
 ###Каталоги медиаконтента для программ
 rezka.ag
 hdrezka.ag
@@ -26,6 +27,7 @@ filmix.co
 filmix.cc
 seasonvar.ru
 lostfilm.tv
+
 
 ###Книги
 lib.rus.ec
@@ -56,31 +58,40 @@ aurora.web.telegram.org
 webz.telegram.org
 webk.telegram.org
 
+
 ###СМИ
 the-village.ru
 tvrain.ru
+meduza.io
+mdza.io
+
 
 ###Социальные сети
 facebook.com
-twitter.com
+developers.facebook.com
 static.xx.fbcdn.net
 scontent-amt2-1.xx.fbcdn.net
 fbcdn.net
+
+twitter.com
 abs.twimg.com
 pbs.twimg.com
 api.twitter.com
 video.twimg.com
 abs-0.twimg.com
-developers.facebook.com
+
 instagram.com
 scontent-arn2-1.cdninstagram.com
 scontent-amt2-1.cdninstagram.com
 scontent-ams4-1.cdninstagram.com
+scontent-bom1-1.cdninstagram.com
+
 
 ###Разное
 7-zip.org
 4pna.com
 2019.vote
+
 
 ###Проверка Tor
 check.torproject.org

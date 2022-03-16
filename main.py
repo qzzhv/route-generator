@@ -2,7 +2,7 @@ from pathlib import Path
 from socket import gethostbyname_ex
 
 
-GATEWAY_IP = "10.7.27.210"
+GATEWAY_IP = "127.0.0.1"  # gateway ip
 DOMAINS_PATH = r"hostname.txt"
 OUTPUT_PATH = r"static_rules.bat"
 RULE = "ROUTE ADD {ip} MASK 255.255.255.255 {gateway} REM {domain}"

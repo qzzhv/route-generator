@@ -64,6 +64,8 @@ the-village.ru
 tvrain.ru
 meduza.io
 mdza.io
+tjournal.ru
+bbc.com
 
 
 ###Социальные сети
@@ -82,6 +84,7 @@ video.twimg.com
 abs-0.twimg.com
 
 instagram.com
+l.instagram.com
 scontent-arn2-1.cdninstagram.com
 scontent-amt2-1.cdninstagram.com
 scontent-ams4-1.cdninstagram.com

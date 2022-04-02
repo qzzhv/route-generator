@@ -37,26 +37,26 @@ flisland.net
 flibusta.site
 
 ###Телеграм
-telegram.org
-tdesktop.com
-tdesktop.org
-tdesktop.info
-tdesktop.net
-telesco.pe
-telegram.dog
-telegram.me
-t.me
-telegra.ph
-web.telegram.org
-desktop.telegram.org
-updates.tdesktop.com
-venus.web.telegram.org
-flora.web.telegram.org
-vesta.web.telegram.org
-pluto.web.telegram.org
-aurora.web.telegram.org
-webz.telegram.org
-webk.telegram.org
+#telegram.org
+#tdesktop.com
+#tdesktop.org
+#tdesktop.info
+#tdesktop.net
+#telesco.pe
+#telegram.dog
+#telegram.me
+#t.me
+#telegra.ph
+#web.telegram.org
+#desktop.telegram.org
+#updates.tdesktop.com
+#venus.web.telegram.org
+#flora.web.telegram.org
+#vesta.web.telegram.org
+#pluto.web.telegram.org
+#aurora.web.telegram.org
+#webz.telegram.org
+#webk.telegram.org
 
 
 ###СМИ

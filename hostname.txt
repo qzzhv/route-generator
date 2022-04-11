@@ -66,6 +66,7 @@ meduza.io
 mdza.io
 tjournal.ru
 bbc.com
+zona.media
 
 
 ###Социальные сети
@@ -95,6 +96,7 @@ scontent-bom1-1.cdninstagram.com
 7-zip.org
 4pna.com
 2019.vote
+spotify.com
 
 
 ###Проверка Tor

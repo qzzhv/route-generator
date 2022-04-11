@@ -16,6 +16,7 @@ with open(Path(DOMAINS_PATH), encoding="utf-8") as inp, \
             continue
             
         ips = gethostbyname_ex(domain)[-1]
+        print(domain, "::", *ips)
         for ip in ips:
             rule = RULE.format(
                 ip=ip,
